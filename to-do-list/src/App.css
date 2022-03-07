@@ -1,0 +1,63 @@
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background-color: #6667E0;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  text-transform: uppercase;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+input[type="text"]{
+  background-color: #252532;
+  border: 1px solid #525252;
+  border-radius: 0.8rem;
+  width: 68%;
+  padding: 0.4rem 0.8rem;
+}
+.width-100{
+  width: 100%;
+}
+.width-50{
+  width: 50%;
+}
+.border-box{
+  box-sizing: border-box;
+}
+.default-color{
+  color: #A3A3A3;
+}
+.align-center{
+  align-items: center;
+}
+.align-base{
+  align-items: baseline;
+}
+.justify-center{
+  justify-content: center;
+  justify-items: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.absolute-center{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.text-left{
+  text-align: left;
+}
+h1,h2,h3,h4,h6{
+  margin: 0;
+}
