@@ -1,10 +1,5 @@
-.row{
-  display: flex;
-  flex-direction: row;
-}
-.column{
-  display: flex;
-  flex-direction: column;
+h1,h2,h3,h4,h6{
+  margin: 0;
 }
 button{
   background-color: #6667E0;
@@ -21,6 +16,14 @@ input[type="text"]{
   border-radius: 0.8rem;
   width: 68%;
   padding: 0.4rem 0.8rem;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
 }
 .width-100{
   width: 100%;
@@ -58,6 +61,4 @@ input[type="text"]{
 .text-left{
   text-align: left;
 }
-h1,h2,h3,h4,h6{
-  margin: 0;
-}
+

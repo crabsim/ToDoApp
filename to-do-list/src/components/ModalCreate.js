@@ -1,13 +1,6 @@
-import { Component } from 'react';
-import './CreateModal.css'
-class CreateModal extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            
-        }
-    }
-    
+import React, { Component } from 'react';
+import './ModalCreate.css'
+class ModalCreate extends Component {
     render() {
         return (
             <div className="modal-container">
@@ -17,4 +10,4 @@ class CreateModal extends Component {
         );
     }
 }
-export default CreateModal;
+export default React.memo(ModalCreate);
